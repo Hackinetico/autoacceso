@@ -135,7 +135,8 @@ public class AccesoClave extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        confirmar = usuario.findConfirm(jTextField1.getText(), jPasswordField1.getText());
+        String password = new String(jPasswordField1.getPassword());
+        confirmar = usuario.findConfirm(jTextField1.getText(), password);
         if(confirmar > 0 )
         {
         this.setVisible(false);

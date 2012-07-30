@@ -28,7 +28,7 @@ InputStreamReader(System.in));
   }
 
   static public void main(String args[]) throws
-Exception {
+  Exception {
   JFrame frame = new JFrame("Display image");
   Panel panel = new imagen();
   frame.getContentPane().add(panel);

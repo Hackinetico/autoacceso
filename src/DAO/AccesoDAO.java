@@ -72,7 +72,5 @@ public class AccesoDAO implements OperacionesDAO{
                 }
         
         return op;
-    }
-
-    
+    }    
 }

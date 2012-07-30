@@ -22,7 +22,7 @@ public class DAOFactory  {
     private static String cadenaConexion = "jdbc:mysql://localhost/";
     private static String baseDeDatos = "lat";
     private static String usuario = "root";
-    private static String password = "12345";
+    private static String password = "semeolvido";
 
     public static Connection getConexion(){
         Connection conexion = null;
